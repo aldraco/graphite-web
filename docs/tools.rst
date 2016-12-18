@@ -113,6 +113,10 @@ Forwarding
 
 `Ledbetter`_
   A simple script for gathering Nagios problem statistics and submitting them to Graphite. It focuses on summary (overall, servicegroup and hostgroup) statistics and writes them to the nagios.problems metrics namespace within Graphite.
+  
+`logu <https://github.com/aldraco/logu>`_
+  A simple utility to batch upload metrics directly to Carbon. For example, daily results from a Spark job can be fed into Carbon using logu's simple uploader. Includes very basic data validation.
+
 
 `pipe-to-graphite`_
   A small shell script that makes it easy to report the output of any other cli program to Graphite.
